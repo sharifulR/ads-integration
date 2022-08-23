@@ -7,6 +7,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/show_iv_ads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show_in"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <com.applovin.mediation.ads.MaxAdView
         android:id="@+id/adView"
         android:layout_width="match_parent"
